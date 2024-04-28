@@ -1,9 +1,9 @@
 import HeroSection from "@/components/HeroSection";
-import SkillsSection from "@/components/ui/SkillsSection";
+import SkillsSection from "@/components/AboutSection";
 
 export default function Home() {
   return (
-    <main className="">
+    <main >
       <HeroSection/>
       <SkillsSection/>
     </main>
