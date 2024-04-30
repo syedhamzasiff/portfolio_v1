@@ -1,11 +1,19 @@
 import HeroSection from "@/components/HeroSection";
-import SkillsSection from "@/components/AboutSection";
+import AboutSection from "@/components/AboutSection";
+import SectionDivider from "@/components/SectionDivider";
+import Projects from "@/components/projects";
+import Skills from "@/components/Skills";
+import Contact from "@/components/Contact";
 
 export default function Home() {
   return (
-    <main >
+    <main className="flex flex-col items-center px-4">
       <HeroSection/>
-      <SkillsSection/>
+      <SectionDivider/>
+      <AboutSection/>
+      <Projects/>
+      <Skills/>
+      <Contact/>
     </main>
   );
 }
