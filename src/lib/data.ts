@@ -23,10 +23,24 @@ export const links = [
   
   export const projectsData = [
     {
-      title: "",
+      title: "something porject",
       description:
-        "",
-      tags: [""],
+        "lorem ipsum sbfi fdsfb ndskf sfsdhf kjdsfbdskfdsfjds fdjf df dsjf dbsfd",
+      tags: ["html", "css", "javascript"],
+      imageUrl: "",
+    },
+    {
+      title: "something porject",
+      description:
+        "lorem ipsum sbfi fdsfb ndskf sfsdhf kjdsfbdskfdsfjds fdjf df dsjf dbsfd",
+      tags: ["html", "css", "javascript"],
+      imageUrl: "",
+    },
+    {
+      title: "something porject",
+      description:
+        "lorem ipsum sbfi fdsfb ndskf sfsdhf kjdsfbdskfdsfjds fdjf df dsjf dbsfd",
+      tags: ["html", "css", "javascript"],
       imageUrl: "",
     },
   ] as const;
@@ -42,6 +56,4 @@ export const links = [
     "Node.js",
     "Git",
     "Tailwind",
-    "MongoDB",
-    "Redux",
   ] as const;
