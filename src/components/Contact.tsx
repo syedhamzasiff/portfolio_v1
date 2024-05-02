@@ -12,7 +12,7 @@ export default function Contact() {
   return (
     <motion.section
       id="contact"
-      className="mb-20 sm:mb-28 w-[min(100%,38rem)] text-center scroll-mt-28"
+      className="mb-20 sm:mb-28 w-[min(100%,38rem)] text-center scroll-mt-28 object-center"
       initial={{
         opacity: 0,
       }}
@@ -28,16 +28,16 @@ export default function Contact() {
     >
       <SectionHeading>Contact me</SectionHeading>
 
-      <p className="text-gray-700 -mt-6 dark:text-white/80">
+      <p className="text-gray-700 gap2 dark:text-white/80">
         Please contact me directly at{" "}
-        <a className="underline" href="mailto:example@gmail.com">
-          example@gmail.com
+        <a className="underline" href="mailto:syedhamzasiff@gmail.com">
+          syedhamzasiff@gmail.com
         </a>{" "}
         or through this form.
       </p>
 
       <form
-        className="mt-10 flex flex-col dark:text-black"
+        className="mt-2 flex flex-col dark:text-black"
         action={async (formData) => {
           const { data, error } = await sendEmail(formData);
 
