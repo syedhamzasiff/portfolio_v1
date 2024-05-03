@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import "@/styles/globals.css";
 import NavBar from "@/components/NavBar";
+import {Inter} from 'next/font/google'
+const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: "Hamza | Personal Portfolio",
@@ -16,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-    <body className="bg-gray-50 text-gray-950 relative dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90 !scroll-smooth">
+    <body className={`bg-customDarkGrey text-customWhite relative !scroll-smooth ${inter.className}`}>
     <div className="relative w-full flex items-center justify-center">
       <NavBar/>
       </div>
