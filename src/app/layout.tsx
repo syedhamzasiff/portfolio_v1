@@ -5,9 +5,7 @@ import {Inter} from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: "Hamza | Personal Portfolio",
-  //TODO: fix the description
-  //TODO: Favicon / logo
+  title: "Syed Hamza Asif | Portfolio",
   description: "",
 };
 
