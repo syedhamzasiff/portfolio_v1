@@ -5,11 +5,12 @@ import SectionHeading from "./SectionHeading";
 import { motion } from "framer-motion";
 import { sendEmail } from "../actions/sendEmail";
 import SubmitBtn from "./SubmitBtn";
-import toast from "react-hot-toast";
+import toast, { Toaster } from "react-hot-toast";
 
 export default function Contact() {
 
   return (
+    
     <motion.section
       id="contact"
       className="mb-20 sm:mb-28 w-[min(100%,38rem)] text-center scroll-mt-28 object-center"
@@ -26,6 +27,10 @@ export default function Contact() {
         once: true,
       }}
     >
+      <Toaster
+        position="top-right"
+        reverseOrder={false}
+      />
       <SectionHeading>Contact me</SectionHeading>
 
       <p className="text-neutral-400 gap2">

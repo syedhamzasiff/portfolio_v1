@@ -1,3 +1,4 @@
+
 export const links = [
     {
       name: "Home",
@@ -23,26 +24,42 @@ export const links = [
   
   export const projectsData = [
     {
-      title: "something porject",
+      title: "nqueenzAI",
       description:
-        "lorem ipsum sbfi fdsfb ndskf sfsdhf kjdsfbdskfdsfjds fdjf df dsjf dbsfd",
-      tags: ["html", "css", "javascript"],
+        "A Flask web app solving the N-Queens problem using various algorithms. Features adjustable board size, real-time visualization, and intuitive interface for puzzle enthusiasts.",
+      tags: ["python", "html", "css", "javascript", "flask"],
       imageUrl: "",
+      githubUrl: "https://github.com/syedhamzasiff/ai-nqueen",
+      demoUrl: "https://nqueenzai.vercel.app/"
     },
     {
-      title: "something porject",
+      title: "Portfolio Website",
       description:
-        "lorem ipsum sbfi fdsfb ndskf sfsdhf kjdsfbdskfdsfjds fdjf df dsjf dbsfd",
-      tags: ["html", "css", "javascript"],
+        "Developed a personal portfolio showcasing projects, skills, and contact form. ",
+      tags: ["reactjs", "tailwindcss", "Nextjs", "resend", "javascript", "framer motion"],
       imageUrl: "",
+      githubUrl: "https://github.com/syedhamzasiff/portfolio_v1",
+      demoUrl: ""
     },
     {
-      title: "something porject",
+      title: "Music Academy",
       description:
-        "lorem ipsum sbfi fdsfb ndskf sfsdhf kjdsfbdskfdsfjds fdjf df dsjf dbsfd",
-      tags: ["html", "css", "javascript"],
+        "Developed an engaging front-end landing page for a music academy, featuring a modern design and user-friendly UI.",
+      tags: ["Java"],
       imageUrl: "",
+      githubUrl: "https://github.com/rzn1337/tsp_ga_v1.1",
+      demoUrl: ""
     },
+    {
+      title: "TSP-GA",
+      description:
+        "Found near optimal solutions to the Traveling Salesman Problem by leveraging the Genetic Algorithm. Made use of custom data structures, tailored to efficiently represent the problem's elements.",
+      tags: ["Java"],
+      imageUrl: "",
+      githubUrl: "https://github.com/rzn1337/tsp_ga_v1.1",
+      demoUrl: ""
+    },
+    
   ] as const;
   
   export const skillsData = [
