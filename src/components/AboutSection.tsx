@@ -14,31 +14,18 @@ export default function AboutSection() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
+        Currently pursuing my Degree in{" "}
+        <span className="font-medium">Computer Science</span>. This world of coding and the endless possibilities you can achieve through this one skill will never cease to amaze me— the problems you can solve, the creative expression you can showcase.
         <span className="italic">My favorite part of programming</span> is the
         problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
-      </p>
-
-      <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
-      </p>
+        feeling of finally figuring out a solution to a problem. 
+        </p>
+        <p>
+        Currently in a phase of exploration, trying out different tools to craft my journey. From enhancing my problem-solving skills in core Java, to building some fun apps using Flutter, to now learning more about web development and creating different projects with it.
+        </p>
+        <p>
+        In the future, I would love to explore web 3.0 and the vast world of AI and ML.
+        </p>
     </motion.section>
   );
 }

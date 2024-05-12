@@ -31,7 +31,7 @@ export default function HeroSection() {
 
               <a
                 className="bg-customGrey p-4 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer border-neutral-950 hover:bg-customTeal hover:text-customDarkGrey"
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/syedhamzasiff/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -40,7 +40,7 @@ export default function HeroSection() {
 
               <a
                 className="bg-customGrey p-4 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer border-neutral-950 hover:bg-customTeal hover:text-customDarkGrey"
-                href="https://github.com"
+                href="https://github.com/syedhamzasiff"
                 target="_blank"
                 rel="noopener noreferrer"
               >
