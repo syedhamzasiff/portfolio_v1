@@ -22,10 +22,10 @@ export default function HeroSection() {
             <div className='flex flex-row items-center justify-center gap-2 px-4 text-lg font-medium'>
               <a
                 className="group bg-customGrey px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer hover:bg-customTeal hover:text-customDarkGrey"
-                href="/CV.pdf"
+                href="/Syed Hamza Asif.pdf"
                 download
               >
-                Download CV{' '}
+                Download CV{''}
                 <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
               </a>
 
