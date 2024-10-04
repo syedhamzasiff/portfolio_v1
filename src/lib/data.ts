@@ -73,6 +73,7 @@ export const links = [
     "CSS",
     "JavaScript",
     "TypeScript",
+    "Express",
     "React",
     "Next.js",
     "Node.js",

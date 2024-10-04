@@ -7,7 +7,7 @@ import { HiDownload } from 'react-icons/hi';
 export default function HeroSection() {
   return (
     <section id='home'>
-      <div className='min-h-screen overflow-hidden pt-40'>
+      <div className='min-h-screen / 2 overflow-hidden pt-44'>
         <div className="flex items-center justify-center flex-col space-x-4 text-left px-4 md:flex-row">
           <div className="md:mt-2 md:w-3/5">
             <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">Hi, I'm Hamza!</h1>
@@ -22,10 +22,10 @@ export default function HeroSection() {
             <div className='flex flex-row items-center justify-center gap-2 px-4 text-lg font-medium'>
               <a
                 className="group bg-customGrey px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer hover:bg-customTeal hover:text-customDarkGrey"
-                href="/Syed Hamza Asif.pdf"
+                href="/Syed Hamza Asif - Resume.pdf"
                 download
               >
-                Download CV{''}
+                Resume{''}
                 <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
               </a>
 

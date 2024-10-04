@@ -21,7 +21,7 @@ export default function AboutSection() {
         feeling of finally figuring out a solution to a problem. 
         </p>
         <p>
-        Currently in a phase of exploration, trying out different tools to craft my journey. From enhancing my problem-solving skills in core Java, to building some fun apps using Flutter, to now learning more about web development and creating different projects with it.
+        Currently in a phase of exploration, trying out different tools to craft my journey. From enhancing my problem-solving skills in core Java, to building some fun apps using Flutter, to now currently exploring the world of web-development using NextJs and Full stack frameworks.
         </p>
         <p>
         In the future, I would love to explore web 3.0 and the vast world of AI and ML.
